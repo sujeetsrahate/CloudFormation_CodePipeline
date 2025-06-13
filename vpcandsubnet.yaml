@@ -14,7 +14,7 @@ Resources:
       CidrBlock: !Ref VPCCidr
       Tags:
         - Key: Name
-          Value: !Sub "Pipeline1-VPC-${AWS::Region}"
+          Value: !Sub "Pipeline-Resource-VPC-${AWS::Region}"
 
   PublicSubnet1:
     Type: AWS::EC2::Subnet
