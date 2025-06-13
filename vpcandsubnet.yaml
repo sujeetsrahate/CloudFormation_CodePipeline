@@ -63,7 +63,7 @@ Resources:
   MySecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: Allow SSH and HTTP access
+      GroupDescription: Allow SSH and HTTP access Sujeet
       VpcId: !Ref MyVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
